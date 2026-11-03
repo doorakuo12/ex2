@@ -103,6 +103,7 @@ nav a:hover {
 }
 
 .hero p {
+    font-size: clamp(1rem, 2vw, 1.5rem); /* 流式字體，隨螢幕自動縮放 */
     position: absolute;
     top: 50%;
     left: 5%;
