@@ -1,101 +1,104 @@
 <!doctype html>
 <html>
-
-<head><!--設定頁面基本資訊+外部連結-->
-<meta charset="utf-8">
-<title>Interacyion</title>
-<link href="css/ex2.css" rel="stylesheet" type="text/css">
+<head>
+    <!--設定頁面基本資訊+外部連結-->
+    <meta charset="utf-8">
+    <title>Interaction - Project 2</title>
+    <link href="css/ex2.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body><!--瀏覽器看得見的內容-->
-<!--header-->
-<header>
-    <div class="menu">
-        <!--logo-->
-        <div class="logo">
-            <a href="p2.html">
-            <img src="images/logo.png">
-            </a>
+<body>
+    <!-- header -->
+    <header>
+        <div class="menu container">
+            <!-- logo -->
+            <div class="logo">
+                <a href="p2.html">
+                    <img src="images/頭貼.png" alt="Logo">
+                </a>
+            </div>
+        
+            <!-- nav -->
+            <nav>
+                <a href="p2.html">Ｈome</a>
+                <a href="https://930-eight.vercel.app/#">HOMEWORK</a>
+                <a href="https://www.instagram.com/p/Da-hdftEa9M/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==">POST</a>
+                <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.animlab.yuntech.edu.tw/sposad/&ved=2ahUKEwiOl_f-jeeXAxWsgVYBHWbrGqMQFnoECBsQAQ&usg=AOvVaw31pGQ7ja7oLyb_3mzczH0-">ABOUT SPOSAD</a>
+            </nav>
+        </div>    
+    </header>
+
+    <!-- hero 一進畫面大圖＋字 -->
+    <div class="hero">
+        <img src="images/hero2.jpg" alt="hero">
+        <div class="hero-text container">
+            <h1>Perfect Rice Ball Factory</h1>
+            <p>完美飯糰製造所 ! Welcome to Perfect Rice Ball Factory! 這是2026/07於「教育部藝術與設計菁英海外培訓計畫」發表的第三階段紀錄。</p>
         </div>
-        <!--nav-->
-        <nav>
-            <a href="p2.html">About</a>
-            <a href="p2.html">Product</a>
-            <a href="p2.html">Contact</a>
-        </nav>
-    </div>    
-</header>
+    </div>
 
+    <!-- description section 專案介紹 -->
+    <section class="container">
+        <h1> ★ 專案介紹 ★ </h1>
+        <article class="project-intro">
+            <div class="a_left">
+                <img src="images/最受歡迎的飯糰.jpg" alt="最受歡迎的飯糰" />
+                <a href="https://www.instagram.com/reel/Da2snnxSMEd/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==" class="reels-link">    
+                    <div class="Reels">Reels</div>
+                </a>
+            </div>
+            <div class="a_right">
+                <h2>創作大綱</h2>
+                <p>故事要從自身動機說起，因為喜歡觀察所以總是能在日常中找到有趣的事物，而將事物與表情聯想的現象稱之為pareidolia，顏文字亦是由此誕生!此專案探討利用簡單的元素搭配機器及限定指令後創造出的隨機性、可能性，藉此做選票圖鑑找出最端正且最受歡迎的飯糰。</p>
+            </div>
+        </article>
+    </section>
 
-<!--hero--><!--hero一進畫面大圖＋字-->
-<div class="hero">
-    <img src="images/bg.jpg" alt="hero">
-    <h1>interaction</h1>
-    <p>interaction is the process of engaging with something or someone.</p>
-</div>
-
-
-<!--card section--><!--卡片製作-->
-<section>
-    <h1>— About Us —</h1>
-        <!--card-->
-        <div class="card">
-            <a href="#">
-            <img src="images/p1.png">
-            <h2>NAME</h2>
-            <p>more description</p>
-            </a>
+    <!-- card section 飯糰成員 -->
+    <section class="container collection-section">
+        <h1> ★ 飯糰成員大集合 ★ </h1>
+        <div class="collection-grid">
+            <!--card 1-->
+            <div class="card">
+                <a href="#">
+                    <img src="images/飯糰1.JPG" alt="端正臉">
+                    <h2>端正臉</h2>
+                    <p>誰的表情最端正？我的表情最端正！</p>
+                </a>
+            </div>
+            <!--card 2-->
+            <div class="card">
+                <a href="#">
+                    <img src="images/飯糰2.jpg" alt="歪歪臉">
+                    <h2>歪歪臉</h2>
+                    <p>more description</p>
+                </a>
+            </div>
+            <!--card 3-->
+            <div class="card">
+                <a href="#">
+                    <img src="images/飯糰3.jpg" alt="喪喪臉">
+                    <h2>喪喪臉</h2>
+                    <p>今天運氣還好</p>
+                </a>
+            </div>
+            <!--card 4-->
+            <div class="card">
+                <a href="#">
+                    <img src="images/飯糰4.jpg" alt="咦咦臉">
+                    <h2>咦咦臉</h2>
+                    <p>開心到都快轉一圈了</p>
+                </a>
+            </div>
         </div>
-        <!--card-->
-        <div class="card">
-            <a href="#">
-            <img src="images/p2.png">
-            <h2>NAME</h2>
-            <p>more description</p>
-            </a>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            Follow me for more! Ig( 氣炸kuo @dooraku_o ) ✎☺︎&copy;All Right Reserved.
         </div>
-        <!--card-->
-        <div class="card">
-            <a href="#">
-            <img src="images/p3.png">
-            <h2>NAME</h2>
-            <p>more description</p>
-            </a>
-        </div>
-        <!--card-->
-        <div class="card">
-            <a href="#">
-            <img src="images/p4.png">
-            <h2>NAME</h2>
-            <p>more description</p>
-            </a>
-        </div>
-</section>
-
-<!--description section-->
-<section>
-    <h1>— More details —</h1>
-    <article>
-        <div class="a_left">
-            <img src="images/f3.jpg" />
-            <a href="http://google.com">    
-                <div class="moreb">More</div>
-            </a>
-        </div>
-
-        <div class="a_right">
-            <h2>About basic layout</h2>
-            <p>本範例以網頁版面配置與互動設計為主軸，先透過 position 與 float 練習元素定位、左右排列與基本版面結構，再進一步加入 hover、transition 與簡易 CSS 動畫效果。透過實際操作，理解 HTML 元素與 CSS 樣式之間的關係，並觀察網頁如何從靜態版面逐步發展成具有視覺回饋與互動效果的頁面。</p>
-        </div>
-
-    </article>
-</section>
-
-
-
-<!--footer-->
-<footer>&copy;All Right Reserved.</footer>
-
-
+    </footer>
 </body>
 </html>
